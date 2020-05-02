@@ -1,0 +1,13 @@
+
+<!-- AND(OR(FALSE(),COMPARE(type=EQ,CONST(12.0),CONST(12.0))),TRUE()) -->
+
+<AND>
+    <OR>
+        <FALSE/>
+        <COMPARE type="EQ">
+            <CONST>12</CONST>
+            <CONST>12</CONST>
+        </COMPARE>
+    </OR>
+    <TRUE/>
+</AND>
